@@ -1,4 +1,4 @@
-# Laboratorio 2 - Patterns
+# Laboratorio 3 Clases Equivalencia 
 
 
 * Universidad: Escuela Colombiana de Ingeniería
@@ -19,10 +19,9 @@ Se utiliza para automatizar tareas comunes del ciclo de vida del desarrollo de s
 ### Crear un proyecto con Maven
 Necesitaremos de los siguientes parametros para la creación de nuestro proyecto
 * Grupo: edu.eci.cvds
-* Id del Artefacto: Patterns
-* Paquete: edu.eci.cvds.patterns
+* Id del Artefacto: ClasesEquivalencia
+* Paquete: edu.eci.cvds.ClasesEquivalencia
 * archetypeArtifactId: maven-archetype-quickstart
-<img src="Image1.jpeg" alt="i1" width="700"/>
 
 ### Compilar y Ejecutar
 * Para compilar ejecute el comando:
@@ -30,12 +29,12 @@ Necesitaremos de los siguientes parametros para la creación de nuestro proyecto
 $ mvn -U package
 ```
 
-<img src="Image2.jpeg" alt="i2" width="700"/>
+<img src="Image1.jpeg" alt="i2" width="700"/>
 
-* Para ejecutar el proyecto
+* Para probar las pruebas
 ```
-mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.args="Triangle"
+mvn test
 ```
 
-<img src="Image3.jpeg" alt="i3" width="700"/>
+<img src="Image2.jpeg" alt="i3" width="700"/>
 
