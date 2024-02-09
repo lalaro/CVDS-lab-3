@@ -29,12 +29,17 @@ Necesitaremos de los siguientes parametros para la creación de nuestro proyecto
 $ mvn -U package
 ```
 
-<img src="Image1.jpeg" alt="i2" width="700"/>
+<img src="Image1.jpeg" alt="i1" width="700"/>
 
 * Para probar las pruebas
 ```
 mvn test
 ```
 
-<img src="Image2.jpeg" alt="i3" width="700"/>
+<img src="Image2.jpeg" alt="i2" width="700"/>
 
+Descargar el paquete de aerodescuentos-1.0.0.jar
+```
+mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvds -DartifactId=aerodescuentos -Dversion=1.0.0 -Dpackaging=jar
+```
+<img src="Image3.jpeg" alt="i3" width="700"/>
